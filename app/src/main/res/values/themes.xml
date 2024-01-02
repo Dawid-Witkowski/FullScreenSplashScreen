@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.FullScreenSplashScreen" parent="android:Theme.Material.Light.NoActionBar"/>
+
+    <style name="Theme.Splash" parent="Theme.SplashScreen">
+        <item name="android:background">@drawable/test</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowSplashScreenBackground" tools:targetApi="s">@color/white</item>
+        <item name="android:windowSplashScreenAnimatedIcon" tools:targetApi="s">@drawable/anim_ic_arrow_left</item>
+        <item name="postSplashScreenTheme">@style/Theme.FullScreenSplashScreen</item>
+    </style>
+</resources>
